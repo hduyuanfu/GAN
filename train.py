@@ -18,7 +18,7 @@ from model import DNet, GNet, weight_init
 from preparedata import data_loader
 
 
-def train(opt ,device):
+def train(opt, device):
 
     dataloader = data_loader(opt)
 
